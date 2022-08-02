@@ -1,0 +1,202 @@
+.topnav{
+    background-color: yellowgreen;
+     width: 100%;
+     height: 60px;
+     
+    }
+ .topnav a{
+     float: right;
+     text-align: center;
+     padding: 12px 14px;
+     text-decoration: none;
+     font-size: 17px;
+     color:rgba(0, 0, 25, 0.8)
+ 
+ 
+ }
+ .topnav a:hover{
+   background-color: rgb(204, 200, 205);
+     height: 36px;
+ 
+ }
+ body{
+     margin: 0px;
+ }
+ .two{
+     text-align: center;
+     padding: 10px 10px ;
+     margin-left: 200px;
+     
+     height: 60px;
+ }
+ .sidenav{
+     background-color:rgb(204, 200, 205);
+     margin-right: 1150px;
+     margin-top: -80px;
+     height: 1000px;
+     padding:20px;
+     color:rgba(0, 0, 25, 0.8);
+     font-size: 20px;
+ }
+ .sidenav a{
+     padding:6px 4px 16px 8px;
+     text-decoration: none;
+     display: block;
+     color:rgba(0, 0, 25, 0.8);
+
+ }
+ .card-container{
+ 
+     margin-left: 200px;
+     margin-top: -960px;
+     height: 80px;
+     margin-right: 900px;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: repeat(3,auto);
+     grid-row-gap: 5px;
+     grid-column-gap: 10px;
+ 
+ 
+ 
+ 
+ }
+ .card{
+     background-color:whitesmoke;
+ 
+   font-size: 20px;
+   width: 280px;
+   padding-left: 10px;
+   text-align: cent;
+   box-shadow: 10px 10px rgb(187, 202, 163,0.9);
+   margin: 20px;
+   margin-right: 10px;
+ }
+ .card a{
+     text-decoration: none;
+ }
+ .sidenav a:hover{
+    background-color: yellowgreen;
+     width: 140px;
+     margin-left: -20px;
+ 
+ 
+ }
+ .article1{
+     margin-left: 198px;
+     margin-top: -980px;
+     padding: 20px;
+ 
+ 
+ 
+ }
+ .article2{
+     margin: 20px;
+     margin: 60px;
+ }
+ .card1{
+     background-color:whitesmoke;
+     border: 1px solid burlywood;
+     font: size 10px;
+     padding-left: 10px;
+     text-align: center;
+ }
+ #log{
+     background-color: whitesmoke;
+     box-shadow: black;
+     border-radius: 56px;
+     margin-left: 25%;
+ 
+ }
+ .logo{
+ background-color:black;
+     box-shadow: 5px 5px 10px;
+     margin: 10px;
+     padding: 20px;
+     text-align: center;
+     height: 30%;
+     border-radius: 25px;
+     width: 30%;
+     position: fixed;
+ }
+ .passive{
+     background-color: tomato;
+ } 
+ h1{
+    color:rgba(0, 0, 25, 0.8);
+ }
+ .footer{
+    background-color: yellowgreen;
+    width:100%;
+    height: 80px;
+    margin-top:840px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+
+ }
+ .card1{
+        background-color:whitesmoke;
+    
+      font-size: 20px;
+      width: 900px;
+      padding-left: 110px;
+      text-align:center;
+      box-shadow: 10px 10px rgb(187, 202, 163,0.9);
+      margin: 20px;
+      margin-right: 10px;
+      height: 750px;
+    }
+    table{
+        width:500px;
+        height: 150px;
+    }
+    .form1{
+       width:300px;
+       padding: 40px;
+       position:absolute;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%) ;
+       background-color: #241c1c;
+       text-align: center;
+        }
+    .form1 h1{
+        color: white;
+        text-transform:uppercase ;
+    }
+    .form1 input[type="text"],.form1 input[type="password"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin:20px auto;
+        text-align: center;
+        border:2px solid yellowgreen;
+        padding:14px 10px;
+        width:200px;
+        outline:none;
+        color: white;
+        border-radius:24px ;
+        transition:0.25s;
+
+    }
+    .form1 input[type="text"]:focus,.form1 input[type="password"]:focus{
+        width:280px;
+    }
+    .form1 input[type="submit"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin:20px auto;
+        text-align: center;
+        border:2px solid yellowgreen;
+        padding:14px 40px;
+        width:100px;
+        outline:none;
+        color: white;
+        border-radius:24px ;
+        transition:0.25s;
+    }
+    .form1 input[type="submit"]:hover{
+        background: #4e9b52;
+    }
